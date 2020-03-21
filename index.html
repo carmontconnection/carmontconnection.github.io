@@ -1,154 +1,151 @@
-m
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
 <head>
 	<script>
+
 		// this is your personal content
 		let content = {
-			first_name: "RSD Jay",
+			first_name: "Jay",
 			last_name: "Yeung",
 			position: "Entrepreneur and Management Consultant",
-			email: "nickcarmont8@gmail.com",
-			allow_download_resume: true,
+			email: "Jay.Yeung148@gmail.com",
+			allow_download_resume: false,
 			resume_path: "resume.pdf",
-			phone: "+44 7786107297",
-			main_pic: "img/header-img.png",
-			contact_pic: "img/about-img.jpg",
-			banner_emojis: "🤖🤓",
-			aboutMe: `I'm a hackathon fanatic (attended 10+), 
-					love football especially FC Barcelona. 
-					Half Spanish,half Australian. 
-					Grew up in the Netherlands. 
-					Spend Friday nights coding and watching YouTube.`
+			phone: "+44 7746458060",
+			personal_logo: "img/personal-logo.png",
+			main_pic: "img/header-img2.png",
+			contact_pic: "img/EUTIC_ball.jpg",
+			banner_emojis: "",
+			aboutMe: `In my free time I enjoy Motorsports, Muay Thai and Chess. I have lived in different countries and can speak English, Chinese, Spanish and French. `
 		}
 
-		// these are the sections you want in your resume, add or delete any
+		// these are the sections you want in your resume, add or delete any 
+
+		// IF YOU GET ANY ERRORS - Make sure your brackets are properly closed, check original repo for help
 		let sections = [
 
 			// NEW SECTION
 			{
-				section_title: "Recent Projects",
-				section_description: "These are my projects",
+				section_title: "💼 Work Experience",
+				section_description: "Where I've been workin",
 				cards: [
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
+						name: "Boston Consulting Group (BCG)",
+						image: "img/BCG_Corporate_Logo.jpg",
+						url: "https://www.bcg.com/",
+						description: "Summer Associate",
+						more_info: "🚀Turnaround strategy and execution for a £20b+ global automaker",
 					},
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
+						name: "MV Commercial",
+						image: "img/mvcommercial_logo.png",
+						url: "https://www.mvcommercial.com/",
+						description: "Consultant",
+						more_info: "🚀Marketing outsourcing and operational strategy for a £50m automotive company",
 					},
-					{
-						name: "NetZero",
-						image: "img/netzero-new-logo.png",
-						url: "https://netzero.world",
-						description: "easily track and offset your carbon footprint",
-						awards: "Pioneer",
-					}
 				]
 			},
 
 			// NEW SECTION
 			{
-				section_title: "Recent Shit",
-				section_description: "These are my projects",
+				section_title: "🚀 Start-up Experience",
+				section_description: "Start-ups I've started",
 				cards: [
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
+						name: "Tomorrow Science",
+						image: "img/tomorrow_science.png",
+						url: "https://tomorrowsci.com/",
+						description: "Chinese language popular science media company",
+						more_info: "130,000 followers and 200,000+ monthly page views",
 					}
 					,
 					{
-						name: "NetZero",
-						image: "img/netzero-new-logo.png",
+						name: "EasyViewing",
+						image: "",
 						url: "https://netzero.world",
-						description: "easily track and offset your carbon footprint",
-						awards: "Pioneer",
-					}
+						description: "Arrange flat viewings with a click of a button on a website",
+						more_info: "",
+					},
+					{
+						name: "Party Bus",
+						image: "",
+						url: "https://netzero.world",
+						description: "Student nightlife app replacing club promoters with perks, minigames, and loyalty programmes",
+						more_info: "",
+					},
+					{
+						name: "Sharpp",
+						image: "",
+						url: "",
+						description: "Subscription box for all-natural nootropics -- study/work supplements",
+						more_info: "",
+					},
+					{
+						name: "Clearcall",
+						image: "img/clearcall-cloud.png",
+						url: "https://clearcall.app/",
+						description: "Handling out-of-hours customer support requests using AI",
+						more_info: "Featured on Product Hunt",
+					},
 				]
 			},
 
-			// TO ADD NEW SECTIONS -> COPY PASTE THE ABOVE)
+			// TO ADD NEW SECTIONS -> COPY PASTE THE ABOVE
 
 			{
-				section_title: "Recent Shit",
-				section_description: "These are my projects",
+				section_title: "🏆 Awards",
+				section_description: "Awards I've got along the way",
 				cards: [
+
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
+						name: "Scottish Case Competition 2020",
+						image: "img/scottish_case.png",
+						url: "https://www.facebook.com/events/university-of-edinburgh-business-school/scottish-case-competition/732646543884798/",
+						description: "Winner",
+						more_info: "1st out of 10 teams. Pitched a growth strategy for a social enterprise",
 					}
 					,
 
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
+						name: "Y Combinator Hackathon 2018",
+						image: "img/YC.svg",
+						url: "https://blog.ycombinator.com/october-2018-hackathon-recap/",
+						description: "Finalist",
+						more_info: "Top 9 out of 100 teams. Built an accessibility tool for deaf students",
+					}
+					,
+					{
+						name: "Manchester StudentHack VI",
+						image: "img/manchester.png",
+						url: "https://studenthackvi.devpost.com/submissions",
+						description: "Winner",
+						more_info: "1st out of 35 teams. Built a multiplayer strategy game written in Javascript",
+					}
+					,
+					{
+						name: "Morgan Stanley Challenge, Hack the Burgh 2018",
+						image: "img/morganStan.png",
+						url: "https://hacktheburgh2018.devpost.com/submissions",
+						description: "Winner",
+						more_info: "1st out of 5 teams. Developed an intelligent agent that won a multiplayer deathmatch of Doom",
 					}
 					,
 
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
+						name: "Edinburgh Award for Enterprise",
+						image: "img/edin.jpg",
 						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
+						description: "Recipient",
+						more_info: "Awarded by the university for efforts and achivements in entrepreneurship",
 					}
 					,
 					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
-					}
-					,
-					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
-					}
-					,
-					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
-					}
-					,
-
-					{
-						name: "FitPic AI",
-						image: "img/fitpic-logo-bg.png",
-						url: "",
-						description: "Measuring Body Percentage with neural networks",
-						awards: "$1000 Fellowship",
-					}
-					,
-					{
-						name: "NetZero",
-						image: "img/netzero-new-logo.png",
-						url: "https://netzero.world",
-						description: "easily track and offset your carbon footprint",
-						awards: "Pioneer",
+						name: "Edinburgh Apprentice Business Competition",
+						image: "img/edinburgh-apprentice.jpg",
+						url: "https://www.eusa.ed.ac.uk/ents/event/6914/",
+						description: "Finalist",
+						more_info: "Top 5 out of 250. Crafted a startup growth strategy, advised a real estate agency, pitched a new idea",
 					}
 				]
 			},
@@ -168,29 +165,20 @@ m
 		.skillbar-bar,
 		.single-feature:hover,
 		.single-footer-widget .click-btn,
-		.generic-banner {
-			background-image: -moz-linear-gradient(0deg, #999da0 0%, #5B86E5 100%);
-			background-image: -webkit-linear-gradient(0deg, #36D1DC 0%, #5B86E5 100%);
-			background-image: -ms-linear-gradient(0deg, #36D1DC 0%, #5B86E5 100%);
-			/* background-image: -moz-linear-gradient(0deg, #999da0 0%, #8490ff 100%);
-			background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-			background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%); */
-		}
-
+		.generic-banner,
 		.p1-gradient-color,
 		.single-service a:hover,
 		.footer-social a:hover i,
+		.box,
 		.single-footer-widget .bb-btn {
-			background: -moz-linear-gradient(0deg, #36D1DC 0%, #5B86E5 100%);
-			background: -webkit-linear-gradient(0deg, #36D1DC 0%, #5B86E5 100%);
-			background: -ms-linear-gradient(0deg, #36D1DC 0%, #5B86E5 100%);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-			/* background: -moz-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-			background: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-			background: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent; */
+
+			/*vvv CHANGE MAIN WEBSITE COLOR HERE 🕺vvv  -- (find cool ones at https://uigradients.com/ ) */
+
+			background: #56CCF2;
+			/* fallback for old browsers */
+			background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);
+			/* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to left, #2F80ED, #56CCF2) !important;
 		}
 	</style>
 
@@ -220,15 +208,16 @@ m
 
 
 		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
 
-		gtag('js', new Date());
+		var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+		link.type = 'image/x-icon';
+		link.rel = 'shortcut icon';
+		link.href = content.personal_logo;
+		document.getElementsByTagName('head')[0].appendChild(link);
+
 	</script>
 
 
-	<link rel="icon" href="img/personal-logo.png">
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- Favicon-->
 	<link rel="shortcut icon" href="img/fav.png">
@@ -348,11 +337,11 @@ m
 			sections[i].cards.forEach((proj) => {
 
 
-				if (proj.awards) {
+				if (proj.more_info) {
 
 					document.getElementById(`project-wrapper-${i}`).innerHTML += `<a class="box project" href = ${proj.url ? proj.url : '#'}
 
-					${ proj.url ? 'target="_blank" ' : null} style = "background-image: url(${proj.image ? proj.image : 'img/default.png'}); border: 1px solid #DCDCDC;
+					${ proj.url ? 'target="_blank" ' : null} style = " ${proj.image ? 'background-image: url(' + proj.image + ');' : ""} border: 1px solid #DCDCDC;
 					background - color: white; background-size: cover; background-repeat: no-repeat; background-position: center center; ">
 						<div class="box-text" > <h3 class="box-text-title" style="margin-bottom: 5%; font-size: 20px;">${
 						proj.name}
@@ -362,7 +351,7 @@ m
 						}
 
 					<div style="color:white; margin-top: 10%; font-size:16px;">${
-						proj.awards
+						proj.more_info
 						}
 
 					</div> </div > </a > `
@@ -372,7 +361,7 @@ m
 
 					document.getElementById(`project-wrapper-${i}`).innerHTML += `<a class="box a"href = ${proj.url ? proj.url : '#'}
 
-					${ proj.url ? 'target="_blank" ' : null} style = "background-image: url(${proj.image ? proj.image : 'img/default.png'});border: 1px solid #DCDCDC;
+					${ proj.url ? 'target="_blank" ' : null} style = "background-image: url(${proj.image ? proj.image : ''});border: 1px solid #DCDCDC;
 					background-size: cover; background-repeat: no-repeat; background-position: center center; ">
 						<div class="box-text" > <h3 class="box-text-title">${
 						proj.name
@@ -454,7 +443,7 @@ m
 							<div class="row">
 								<div class="col-lg-12" style="width: 100%;text-align: center; margin-top:-90px;">
 									<div class="myself-wrap" style="transform:scale(0.9);"><img class="img-fluid"
-										src="img/about-img.jpg" alt="">
+										src=${content.contact_pic} alt="">
 										<div class="desc" style="transform:scale(1.15);">
 											<h4>${full_name}</h4>
 											<p class="pb-10">${content.position}
