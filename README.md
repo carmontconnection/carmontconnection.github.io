@@ -1,5 +1,6 @@
-# nick-personal-website
-www.carmont.io
+# Free-Personal-website-in-10min
+
+Example: www.carmont.io
 
 ## A new take on Colorlib's personal website template
 
